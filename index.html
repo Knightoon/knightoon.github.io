@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>デザイン力の高いサイト</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">MY PORTFOLIO</h1>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="menu-toggle" id="menuToggle">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h2 class="hero-title">美しいデザインで<br>世界を変える</h2>
+        <p class="hero-desc">Webデザイナー・フロントエンドエンジニア</p>
+        <a href="#works" class="hero-btn">作品を見る</a>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="container">
+        <h2 class="section-title">About</h2>
+        <div class="about-content">
+          <img src="https://source.unsplash.com/200x200/?person" alt="Profile" class="profile-img"/>
+          <div>
+            <p>こんにちは、私は美しいUIと使いやすいUXを追求するWebデザイナーです。<br>
+            最新技術とトレンドを取り入れ、見る人を惹きつけるサイトを制作します。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="works" id="works">
+      <div class="container">
+        <h2 class="section-title">Works</h2>
+        <div class="works-list">
+          <div class="work-card wow">
+            <img src="https://source.unsplash.com/400x300/?website,design" alt="Work1">
+            <div class="work-info">
+              <h3>Creative Landing Page</h3>
+              <p>大胆なタイポグラフィと配色を活かしたランディングページ。</p>
+            </div>
+          </div>
+          <div class="work-card wow">
+            <img src="https://source.unsplash.com/400x300/?app,ui" alt="Work2">
+            <div class="work-info">
+              <h3>App UI Design</h3>
+              <p>ミニマルで直感的なモバイルアプリUI。</p>
+            </div>
+          </div>
+          <div class="work-card wow">
+            <img src="https://source.unsplash.com/400x300/?portfolio,web" alt="Work3">
+            <div class="work-info">
+              <h3>Portfolio Site</h3>
+              <p>個性を表現するポートフォリオサイト。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <form class="contact-form">
+          <input type="text" placeholder="お名前" required />
+          <input type="email" placeholder="メールアドレス" required />
+          <textarea placeholder="メッセージ" required></textarea>
+          <button type="submit">送信</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <small>© 2024 My Portfolio</small>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
